@@ -1,3 +1,0 @@
-# anish-palakurthi.github.io
-
-
