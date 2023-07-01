@@ -1,6 +1,6 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
+  homepage: 'https://anish-palakurthi.github.io/',
   title: 'AP.',
 }
 
@@ -9,11 +9,12 @@ const about = {
   name: 'Anish Palakurthi',
   role: 'Student at UT Austin',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'Passionate about writing, venture capital, psychology of sports, and productive environments. Interested in data engineering, machine learning, management consulting, and traditional and quantitative finance.',
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/anish-palakurthi/',
+    github: 'https://github.com/anish-palakurthi',
+    medium: 'https://medium.com/@anish.palakurthi_19568'
   },
 }
 
@@ -21,51 +22,51 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Rainfall Predictor',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Trained a Convolutional Neural Network to predict if there will be rain the following day based on select weather parameters.',
+    stack: ['Pytorch', 'Pandas', 'Jupyter Notebook', 'scikit-learn'],
+    sourceCode: 'https://github.com/anish-palakurthi/RainfallPredictor',
+    livePreview: 'https://github.com/anish-palakurthi/RainfallPredictor',
   },
   {
-    name: 'Project 2',
+    name: 'Tumor Identifier',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Visualizes data and uses scikit-learn self-fitting Decision Tree to predict if tumor is benign or malignant.',
+    stack: ['Pandas', 'Jupyter Notebook', 'scikit-learn'],
+    sourceCode: 'https://github.com/anish-palakurthi/CellSampleIdentifier',
+    livePreview: 'https://github.com/anish-palakurthi/CellSampleIdentifier',
   },
   {
-    name: 'Project 3',
+    name: 'Stock Portfolio Page',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Queries and visualizes share prices of desired stocks over the past year in interactive graph.',
+    stack: ['JavaScript', 'CSS', 'REST API'],
+    sourceCode: 'https://github.com/anish-palakurthi/APIStockPage',
+    livePreview: 'https://github.com/anish-palakurthi/APIStockPage',
   },
 ]
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
+  'Python',
+  'Java',
   'JavaScript',
-  'TypeScript',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'C',
+  'SQL',
+  'Pandas',
+  'Flask',
+  'TensorFlow',
+  'Postman',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'AzureDevOps',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'anish.palakurthi@utexas.edu',
 }
 
 export { header, about, projects, skills, contact }

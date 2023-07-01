@@ -1,5 +1,6 @@
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
+import MediumIcon from '@material-ui/icons/Edit'
 import { about } from '../../portfolio'
 import './About.css'
 
@@ -14,17 +15,17 @@ const About = () => {
         </h1>
       )}
 
-      {role && <h2 className='about__role'>A {role}.</h2>}
-      <p className='about__desc'>{description && description}</p>
+      {role && <h2 className='about__role'>{role}.</h2>}
+      {/* <p className='about__desc'>{description && description}</p> */}
 
       <div className='about__contact center'>
-        {resume && (
+        {/* {resume && (
           <a href={resume}>
             <span type='button' className='btn btn--outline'>
               Resume
             </span>
           </a>
-        )}
+        )} */}
 
         {social && (
           <>
@@ -45,6 +46,16 @@ const About = () => {
                 className='link link--icon'
               >
                 <LinkedInIcon />
+              </a>
+            )}
+
+            {social.medium && (
+              <a
+                href={social.medium}
+                aria-label='medium'
+                className='link link--icon'
+              >
+                <MediumIcon />
               </a>
             )}
           </>
