@@ -16,7 +16,7 @@ const about = {
     github: 'https://github.com/anish-palakurthi',
     medium: 'https://medium.com/@anish.palakurthi_19568'
   },
-  profilePicture: 'public/images/profilepicture.jpg'
+  profilePicture: '/images/profilepicture.jpg'
 }
 
 const projects = [

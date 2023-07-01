@@ -18,6 +18,7 @@ const About = () => {
       {role && <h2 className='about__role'>{role}.</h2>}
       {/* <p className='about__desc'>{description && description}</p> */}
 
+
       <div className='about__contact center'>
         {/* {resume && (
           <a href={resume}>
@@ -26,11 +27,13 @@ const About = () => {
             </span>
           </a>
         )} */}
+        {/* <img src={profilePicture} alt="profile" /> */}
 
-        <img src={profilePicture} alt="profile" />
 
         {social && (
           <>
+
+
             {social.github && (
               <a
                 href={social.github}
