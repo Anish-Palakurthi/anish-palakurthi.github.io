@@ -44,7 +44,7 @@ const projects = [
       'Retrofitted toy car with Adafruit Feather 32u4, designed wiring, printed PCB board, and soldered microcontroller to motors/sensors to drive autonomously.',
     stack: ['C++', 'Arduino'],
     // sourceCode: 'https://github.com/anish-palakurthi/APIStockPage',
-    livePreview: 'https://drive.google.com/file/d/1TndjsCHXL517BRmZQ6uiG_LYhdysqO1_/view?usp=drive_link',
+    livePreview: 'https://drive.google.com/file/d/1rcBwl_TuCFlNTcllMXzG1oFueUPaXVFD/view?usp=sharing',
   },
 ]
 
