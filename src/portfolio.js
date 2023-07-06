@@ -27,7 +27,7 @@ const projects = [
     description:
       'Trained a Convolutional Neural Network to predict if there will be rain the following day based on select weather parameters.',
     stack: ['Pytorch', 'Pandas', 'Jupyter Notebook', 'scikit-learn'],
-    sourceCode: 'https://github.com/anish-palakurthi/RainfallPredictor',
+    // sourceCode: 'https://github.com/anish-palakurthi/RainfallPredictor',
     livePreview: 'https://github.com/anish-palakurthi/RainfallPredictor',
   },
   {
@@ -35,16 +35,16 @@ const projects = [
     description:
       'Visualizes data and uses scikit-learn self-fitting Decision Tree to predict if tumor is benign or malignant.',
     stack: ['Pandas', 'Jupyter Notebook', 'scikit-learn'],
-    sourceCode: 'https://github.com/anish-palakurthi/CellSampleIdentifier',
+    // sourceCode: 'https://github.com/anish-palakurthi/CellSampleIdentifier',
     livePreview: 'https://github.com/anish-palakurthi/CellSampleIdentifier',
   },
   {
-    name: 'Stock Portfolio Page',
+    name: 'Self Driving Car',
     description:
-      'Queries and visualizes share prices of desired stocks over the past year in interactive graph.',
-    stack: ['JavaScript', 'CSS', 'REST API'],
-    sourceCode: 'https://github.com/anish-palakurthi/APIStockPage',
-    livePreview: 'https://github.com/anish-palakurthi/APIStockPage',
+      'Retrofitted toy car with Adafruit Feather 32u4, designed wiring, printed PCB board, and soldered microcontroller to motors/sensors to drive autonomously.',
+    stack: ['C++', 'Arduino'],
+    // sourceCode: 'https://github.com/anish-palakurthi/APIStockPage',
+    livePreview: 'https://drive.google.com/file/d/1TndjsCHXL517BRmZQ6uiG_LYhdysqO1_/view?usp=drive_link',
   },
 ]
 
