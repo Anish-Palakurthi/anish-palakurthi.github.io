@@ -9,7 +9,7 @@ const about = {
   name: 'Anish Palakurthi',
   role: 'Student at UT Austin',
   description:
-    'Passionate about writing, venture capital, psychology of sports, and productive environments. Interested in data engineering, machine learning, management consulting, and traditional and quantitative finance.',
+    'Interested in climate tech, venture capital, and machine learning.',
   resume: 'https://example.com',
   social: {
     linkedin: 'https://www.linkedin.com/in/anish-palakurthi/',
