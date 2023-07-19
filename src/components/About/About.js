@@ -3,69 +3,79 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import MediumIcon from '@material-ui/icons/Edit'
 import { about } from '../../portfolio'
 import './About.css'
+import pfp from '../../images/pfp.jpg';
 
 const About = () => {
   const { name, role, description, resume, social, profilePicture } = about
 
   return (
     <div className='about center'>
-      {name && (
-        <h1>
-          Hi, I am <span className='about__name'>{name}</span>
-        </h1>
-      )}
+      <div>
+        <img src={pfp} alt="Profile" />
 
-      {role && <h2 className='about__role'>{role}.</h2>}
-      <p className='about__desc'>{description && description}
-      </p>
+      </div>
+
+      <div>
+        <div className='about center'>
+          {name && (
+            <h1>
+              Hi, I am <span className='about__name'>{name}</span>
+            </h1>
+          )}
+
+          {role && <h2 className='about__role'>{role}</h2>}
+          <p className='about__desc'>{description && description}
+          </p>
 
 
-      <div className='about__contact center'>
-        {/* {resume && (
+          <div className='about__contact center'>
+            {/* {resume && (
           <a href={resume}>
             <span type='button' className='btn btn--outline'>
               Resume
             </span>
           </a>
         )} */}
-        {/* <img src={profilePicture} alt="profile" /> */}
+            {/* <img src={profilePicture} alt="profile" /> */}
 
 
-        {social && (
-          <>
+            {social && (
+              <>
 
 
-            {social.github && (
-              <a
-                href={social.github}
-                aria-label='github'
-                className='link link--icon'
-              >
-                <GitHubIcon />
-              </a>
+                {social.github && (
+                  <a
+                    href={social.github}
+                    aria-label='github'
+                    className='link link--icon'
+                  >
+                    <GitHubIcon />
+                  </a>
+                )}
+
+                {social.linkedin && (
+                  <a
+                    href={social.linkedin}
+                    aria-label='linkedin'
+                    className='link link--icon'
+                  >
+                    <LinkedInIcon />
+                  </a>
+                )}
+
+                {social.medium && (
+                  <a
+                    href={social.medium}
+                    aria-label='medium'
+                    className='link link--icon'
+                  >
+                    <MediumIcon />
+                  </a>
+                )}
+              </>
             )}
-
-            {social.linkedin && (
-              <a
-                href={social.linkedin}
-                aria-label='linkedin'
-                className='link link--icon'
-              >
-                <LinkedInIcon />
-              </a>
-            )}
-
-            {social.medium && (
-              <a
-                href={social.medium}
-                aria-label='medium'
-                className='link link--icon'
-              >
-                <MediumIcon />
-              </a>
-            )}
-          </>
-        )}
+          </div>
+        </div>
       </div>
     </div>
   )

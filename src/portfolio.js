@@ -9,7 +9,7 @@ const about = {
   name: 'Anish Palakurthi',
   role: 'Student at UT Austin',
   description:
-    'Interested in climate/biotech deep tech startups and venture capital.',
+    'Interested in venture capital, machine learning, and climate/bio deep tech.',
   resume: 'https://example.com',
   social: {
     linkedin: 'https://www.linkedin.com/in/anish-palakurthi/',
@@ -26,7 +26,7 @@ const projects = [
     name: 'Rainfall Predictor',
     description:
       'Trained a Convolutional Neural Network to predict if there will be rain the following day based on select weather parameters.',
-    stack: ['Pytorch', 'Pandas', 'Jupyter Notebook', 'scikit-learn'],
+    stack: ['Pytorch', 'Pandas', 'scikit-learn'],
     // sourceCode: 'https://github.com/anish-palakurthi/RainfallPredictor',
     livePreview: 'https://github.com/anish-palakurthi/RainfallPredictor',
   },
@@ -34,7 +34,7 @@ const projects = [
     name: 'Tumor Identifier',
     description:
       'Visualizes data and uses scikit-learn self-fitting Decision Tree to predict if tumor is benign or malignant.',
-    stack: ['Pandas', 'Jupyter Notebook', 'scikit-learn'],
+    stack: ['Python', 'Pandas', 'scikit-learn'],
     // sourceCode: 'https://github.com/anish-palakurthi/CellSampleIdentifier',
     livePreview: 'https://github.com/anish-palakurthi/CellSampleIdentifier',
   },
