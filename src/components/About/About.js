@@ -10,10 +10,10 @@ const About = () => {
 
   return (
     <div className='about center'>
-      <div>
+      {/* <div>
         <img src={pfp} alt="Profile" />
 
-      </div>
+      </div> */}
 
       <div>
         <div className='about center'>
