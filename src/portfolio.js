@@ -52,17 +52,23 @@ const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
   'Python',
+  'Pandas',
   'Java',
-  'JavaScript',
-  'React',
   'C',
   'SQL',
-  'Pandas',
-  'Flask',
-  'TensorFlow',
+  'React',
+  'JavaScript',
+  'Keras',
+  'scikit-learn',
+  'Tailwind',
   'Postman',
-  'Git',
-  'AzureDevOps',
+  'Microsoft Azure',
+  'git',
+  'Docker',
+  'Flask',
+  'MSSQL',
+  'Firestore',
+
 ]
 
 const contact = {
