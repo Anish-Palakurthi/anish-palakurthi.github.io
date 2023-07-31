@@ -65,13 +65,13 @@ const skills = [
   'C',
   'C#',
   'SQL',
+  'MSSQL',
   '.NET',
   'Ansible',
   'Docker',
   'git',
   'Postman',
   'MS Azure',
-  'MSSQL',
   'GCP',
   'Firestore'
 
