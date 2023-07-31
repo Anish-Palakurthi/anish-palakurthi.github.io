@@ -23,7 +23,7 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'The Big Bang Theory Episode Recommender',
+    name: 'The Big Bang Theory NLP Episode Recommender',
     description:
       'Built a content-based recommender system to recommend episodes of The Big Bang Theory based on user input.',
     stack: ['Python', 'scikit-learn', 'Gensim', 'Latent Dirichlet Allocation', 'K-Means Clustering', 'SpaCy'],
@@ -53,21 +53,27 @@ const skills = [
   // if there are no skills, Skills section won't show up
   'Python',
   'Pandas',
-  'Java',
-  'C',
-  'SQL',
-  'React',
-  'JavaScript',
   'Keras',
   'scikit-learn',
+  'Java',
+  'JavaScript',
+  'React',
   'Tailwind',
-  'Postman',
-  'Microsoft Azure',
-  'git',
+  'TypeScript',
+  'Kotlin',
+  'Swift',
+  'C',
+  'C#',
+  'SQL',
+  '.NET',
+  'Ansible',
   'Docker',
-  'Flask',
+  'git',
+  'Postman',
+  'MS Azure',
   'MSSQL',
-  'Firestore',
+  'GCP',
+  'Firestore'
 
 ]
 
