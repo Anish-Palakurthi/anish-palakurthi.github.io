@@ -23,20 +23,20 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    name: 'The Big Bang Theory Episode Recommender',
+    description:
+      'Built a content-based recommender system to recommend episodes of The Big Bang Theory based on user input.',
+    stack: ['Python', 'scikit-learn', 'Gensim', 'Latent Dirichlet Allocation', 'K-Means Clustering', 'SpaCy'],
+    // sourceCode: 'https://github.com/anish-palakurthi/CellSampleIdentifier',
+    livePreview: 'https://github.com/anish-palakurthi/thebigbangtheoryproj',
+  },
+  {
     name: 'Rainfall Predictor',
     description:
       'Trained a Convolutional Neural Network to predict if there will be rain the following day based on select weather parameters.',
     stack: ['Pytorch', 'Pandas', 'scikit-learn'],
     // sourceCode: 'https://github.com/anish-palakurthi/RainfallPredictor',
     livePreview: 'https://github.com/anish-palakurthi/RainfallPredictor',
-  },
-  {
-    name: 'Tumor Identifier',
-    description:
-      'Visualizes data and uses scikit-learn self-fitting Decision Tree to predict if tumor is benign or malignant.',
-    stack: ['Python', 'Pandas', 'scikit-learn'],
-    // sourceCode: 'https://github.com/anish-palakurthi/CellSampleIdentifier',
-    livePreview: 'https://github.com/anish-palakurthi/CellSampleIdentifier',
   },
   {
     name: 'Self Driving Car',
