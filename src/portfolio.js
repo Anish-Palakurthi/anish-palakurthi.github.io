@@ -9,7 +9,7 @@ const about = {
   name: 'Anish Palakurthi',
   role: 'Student at UT Austin',
   description:
-    'Interested in venture capital, machine learning, and climate/bio deep tech.',
+    'Interested in venture investing, systems and machine learning, and climate/bio deep tech.',
   resume: 'https://example.com',
   social: {
     linkedin: 'https://www.linkedin.com/in/anish-palakurthi/',
@@ -54,6 +54,7 @@ const skills = [
   'Python',
   'Pandas',
   'Keras',
+  'Go',
   'scikit-learn',
   'Java',
   'JavaScript',
@@ -71,7 +72,7 @@ const skills = [
   'Docker',
   'git',
   'Postman',
-  'MS Azure',
+  'Azure',
   'GCP',
   'Firestore'
 
