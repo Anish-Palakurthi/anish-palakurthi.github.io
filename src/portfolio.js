@@ -31,12 +31,12 @@ const projects = [
     livePreview: 'https://github.com/anish-palakurthi/thebigbangtheoryproj',
   },
   {
-    name: 'Rainfall Predictor',
+    name: 'Poke-Gan',
     description:
-      'Trained a Convolutional Neural Network to predict if there will be rain the following day based on select weather parameters.',
-    stack: ['Pytorch', 'Pandas', 'scikit-learn'],
+      'Wasserstein Generative Adversarial Networks use generator and discriminator networks to morph D-dimensional noise vectors into images of new Pokémon. The two networks compete in building accurate Pokémon and distinguishing new from real. ',
+    stack: ['Keras', 'Python'],
     // sourceCode: 'https://github.com/anish-palakurthi/RainfallPredictor',
-    livePreview: 'https://github.com/anish-palakurthi/RainfallPredictor',
+    livePreview: 'https://shorturl.at/ejCL9',
   },
   {
     name: 'Self Driving Car',
