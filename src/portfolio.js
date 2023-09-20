@@ -33,7 +33,7 @@ const projects = [
   {
     name: 'Poke-Gan',
     description:
-      'Wasserstein Generative Adversarial Networks use generator and discriminator networks to morph D-dimensional noise vectors into images of new Pokémon. The two networks compete in building accurate Pokémon and distinguishing new from real. ',
+      'Wasserstein Generative Adversarial Networks use generator and discriminator networks to morph D-dimensional noise vectors into indistinguishable samples. The networks compete in generating accurate Pokémon and discriminating new from real.',
     stack: ['Keras', 'Python'],
     // sourceCode: 'https://github.com/anish-palakurthi/RainfallPredictor',
     livePreview: 'https://shorturl.at/ejCL9',
