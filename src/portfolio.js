@@ -9,7 +9,7 @@ const about = {
   name: 'Anish Palakurthi',
   role: 'Student at UT Austin',
   description:
-    'Interested in venture investing, systems and machine learning, and climate/bio deep tech.',
+    'Interested in venture investing, systems and machine learning, and bio-based deep tech.',
   resume: 'https://example.com',
   social: {
     linkedin: 'https://www.linkedin.com/in/anish-palakurthi/',
@@ -26,7 +26,7 @@ const projects = [
     name: 'The Big Bang Theory NLP Episode Recommender',
     description:
       'Built a content-based recommender system to recommend episodes of The Big Bang Theory based on user input.',
-    stack: ['Python', 'scikit-learn', 'Gensim', 'Latent Dirichlet Allocation', 'K-Means Clustering', 'SpaCy'],
+    stack: ['Python', 'scikit-learn', 'Gensim', 'Latent Dirichlet Allocation', 'K-Means Clustering', 'BERT Encoders', 'SpaCy'],
     // sourceCode: 'https://github.com/anish-palakurthi/CellSampleIdentifier',
     livePreview: 'https://github.com/anish-palakurthi/thebigbangtheoryproj',
   },
@@ -34,7 +34,7 @@ const projects = [
     name: 'Poke-Gan',
     description:
       'Wasserstein Generative Adversarial Networks use generator and discriminator networks to morph D-dimensional noise vectors into indistinguishable samples. The networks compete in generating accurate Pokémon and discriminating new from real.',
-    stack: ['Keras', 'Python'],
+    stack: ['TensorFlow', 'Python'],
     // sourceCode: 'https://github.com/anish-palakurthi/RainfallPredictor',
     livePreview: 'https://shorturl.at/ejCL9',
   },
