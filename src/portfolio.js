@@ -9,7 +9,7 @@ const about = {
   name: 'Anish Palakurthi',
   role: 'Student at UT Austin',
   description:
-    'Interested in venture investing, systems and machine learning, and bio-based deep tech.',
+    'Interested in systems, machine learning, and broadly software engineering.',
   resume: 'https://example.com',
   social: {
     linkedin: 'https://www.linkedin.com/in/anish-palakurthi/',
@@ -23,12 +23,12 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'The Big Bang Theory NLP Episode Recommender',
+    name: 'Deep-RL for DVFS',
     description:
-      'Built a content-based recommender system to recommend episodes of The Big Bang Theory based on user input.',
-    stack: ['Python', 'scikit-learn', 'Gensim', 'Latent Dirichlet Allocation', 'K-Means Clustering', 'BERT Encoders', 'SpaCy'],
+      'Developed a Deep-Q Network as a Linux kernel patch to dynamically adjust processor clock speed and supply voltage using deep reinforcement learning. Published paper on research efforts in the space.',
+    stack: ['C', 'stress-ng', 'k-test', 'Linux'],
     // sourceCode: 'https://github.com/anish-palakurthi/CellSampleIdentifier',
-    livePreview: 'https://github.com/anish-palakurthi/thebigbangtheoryproj',
+    livePreview: 'https://drive.google.com/file/d/13IJ9pubQ60-lnC0nsTSYuv24C_hNyYWH/view?usp=sharing',
   },
   {
     name: 'Poke-Gan',
@@ -39,12 +39,12 @@ const projects = [
     livePreview: 'https://shorturl.at/ejCL9',
   },
   {
-    name: 'Self Driving Car',
+    name: 'Pascal Compiler',
     description:
-      'Retrofitted toy car with Adafruit Feather 32u4, designed wiring, printed PCB board, and soldered microcontroller to motors/sensors to drive autonomously.',
-    stack: ['C++', 'Arduino'],
+      'Designed and implemented a compiler to generate x86 instructions from Pascal files in ',
+    stack: ['C', 'yacc', 'lex'],
     // sourceCode: 'https://github.com/anish-palakurthi/APIStockPage',
-    livePreview: 'https://drive.google.com/file/d/1rcBwl_TuCFlNTcllMXzG1oFueUPaXVFD/view?usp=sharing',
+    livePreview: 'https://github.com/anish-palakurthi/pascal_x86_compiler',
   },
 ]
 
@@ -52,29 +52,17 @@ const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
   'Python',
-  'Pandas',
-  'Keras',
-  'Go',
-  'scikit-learn',
+  'Rust',
   'Java',
-  'JavaScript',
   'React',
-  'Tailwind',
   'TypeScript',
-  'Kotlin',
-  'Swift',
   'C',
-  'C#',
+  'C++',
   'SQL',
-  'MSSQL',
-  '.NET',
-  'Ansible',
   'Docker',
   'git',
-  'Postman',
-  'Azure',
-  'GCP',
-  'Firestore'
+  'WebAssembly'
+
 
 ]
 
