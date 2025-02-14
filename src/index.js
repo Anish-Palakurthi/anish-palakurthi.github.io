@@ -5,7 +5,7 @@ import './index.css'
 
 render(
   <ThemeProvider>
-    Not up right now.
+
     {/* <App /> */}
   </ThemeProvider>,
   document.getElementById('root')
