@@ -9,7 +9,7 @@ const about = {
   name: 'Anish Palakurthi',
   role: 'Student at UT Austin',
   description:
-    'Interested in systems, machine learning, and broadly software engineering.',
+    'Interested in systems, machine learning, and building cool things.',
   resume: 'https://example.com',
   social: {
     linkedin: 'https://www.linkedin.com/in/anish-palakurthi/',
@@ -41,7 +41,7 @@ const projects = [
   {
     name: 'Pascal Compiler',
     description:
-      'Designed and implemented a compiler to generate x86 instructions from Pascal files in ',
+      'Designed and implemented a compiler to generate x86 instructions from Pascal files.',
     stack: ['C', 'yacc', 'lex'],
     // sourceCode: 'https://github.com/anish-palakurthi/APIStockPage',
     livePreview: 'https://github.com/anish-palakurthi/pascal_x86_compiler',
